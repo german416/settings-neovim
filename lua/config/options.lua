@@ -18,3 +18,7 @@ vim.g.clipboard = {
 
 -- Enable system clipboard
 vim.opt.clipboard = "unnamedplus"
+
+-- Disable relative line number and enable normal line number
+vim.opt.relativenumber = false
+vim.opt.number = true
