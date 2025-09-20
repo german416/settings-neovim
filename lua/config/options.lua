@@ -22,3 +22,5 @@ vim.opt.clipboard = "unnamedplus"
 -- Disable relative line number and enable normal line number
 vim.opt.relativenumber = false
 vim.opt.number = true
+
+vim.opt.colorcolumn = "100"
