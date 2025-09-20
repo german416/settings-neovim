@@ -10,8 +10,13 @@ return {
 
     -- Choose border:
     win = {
-      border = "single"
+      border = "single",
       -- border = "double"
+    },
+
+    icons = {
+      separator = "│",
+      breadcrumb = "/",
     },
   },
   keys = {
